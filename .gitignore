@@ -1,0 +1,42 @@
+# Build outputs
+build/
+**/build/
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# Android
+android/.gradle/
+android/app/build/
+android/captures/
+android/local.properties
+android/.idea/
+*.apk
+*.ap_
+*.dex
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+
+# Windows
+windows/flutter/ephemeral/
+
+# Linux
+linux/flutter/ephemeral/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Other
+*.log
+.DS_Store
